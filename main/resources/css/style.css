@@ -30,7 +30,7 @@ html {
 h1 {
     margin-top: 0;
     margin-bottom: 20px;
-    color: blanchedalmond;
+    color: #fff;
     font-size: 200%;
     font-weight: 300;
     text-transform: uppercase;
@@ -51,32 +51,32 @@ h1 {
 
 .btn-full:link,
 .btn-full:visited {
-    border: 1px solid #16a085;
-    background-color: #16a085;
-    color: blanchedalmond;
+    border: 1px solid #e67e22;
+    background-color: #e67e22;
+    color: #fff;
     margin-right: 15px;
 }
 
 .btn-ghost:link,
 .btn-ghost:visited {
-    border: 1px solid #16a085;
-    color: #16a085;
+    border: 1px solid #e67e22;
+    color: #e67e22;
 }
 
 .btn:hover,
 .btn:active {
-    background-color: #107360;
+    background-color: #d35400;
 }
 
 .btn-full:hover,
 .btn-full:active {
-    border: 1px solid #107360;
+    border: 1px solid #d35400;
 }
 
 .btn-ghost:hover,
 .btn-ghost:active {
-    border: 1px solid #107360;
-    color: blanchedalmond;
+    border: 1px solid #d35400;
+    color: #fff;
 }
 
 /* --------------------------------------------------------- */
@@ -96,4 +96,38 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 55px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #e67e22;
 }
